@@ -3,7 +3,7 @@ import {withStyles, makeStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import {indigo, purple} from '@material-ui/core/colors';
 import pie from '../../OtherStuff/Init';
-import {Grid} from "@material-ui/core";
+import {Grid, Tooltip} from "@material-ui/core";
 import uOrder from "../../OtherStuff/Order";
 
 
@@ -54,11 +54,13 @@ export default function Unlocks(props: any) {
 
     return (
         <Grid container>
+            <Tooltip title='test'>
             <div>
                 <ColorButton variant="contained" color="primary" className={classes.blue} onClick={test}>
                     Unlocks
                 </ColorButton>
             </div>
+        </Tooltip>
         </Grid>
     );
 }

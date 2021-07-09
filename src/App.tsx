@@ -1,4 +1,4 @@
-import Drawer from "./components/Layout/index";
+import Drawer from "./components/Layout";
 import Main from './components/Draw/main';
 import ContactComponent from './components/LoginSignup/Contact';
 import LoginComponent from "./components/LoginSignup/Login";

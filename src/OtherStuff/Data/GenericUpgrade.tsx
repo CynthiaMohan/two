@@ -1,4 +1,4 @@
-import data from "../Data/currency";
+import data from "./currency";
 import pie from "../Init";
 
 class upgrade extends data
