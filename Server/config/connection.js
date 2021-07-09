@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const password = require('../secrets')
+// const password = require('../secrets')
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Student2:' + password + '@cluster0.equy6.mongodb.net/FinalProject?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/clickertwo', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
